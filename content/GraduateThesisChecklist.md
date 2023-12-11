@@ -1,17 +1,18 @@
 <script>
-document.addEventListener('DOMContentLoaded', (event) => {
-    const checkbox = document.getElementById('task-list-item-checkbox');
+document.addEventListener('DOMContentLoaded', function() {
+    // ページ内のすべてのチェックボックスを取得
+    var checkboxes = document.querySelectorAll('input[type="checkbox"]');
 
-    // ローカルストレージからチェックボックスの状態を読み込み
-    const isChecked = localStorage.getItem('task-list-item-checkbox') === 'true';
-    checkbox.checked = isChecked;
-
-    // チェックボックスの変更を監視し、ローカルストレージに保存
-    checkbox.addEventListener('change', (event) => {
-        localStorage.setItem('task-list-item-checkbox', checkbox.checked);
+    // 各チェックボックスにイベントリスナーを追加
+    checkboxes.forEach(function(checkbox) {
+        checkbox.addEventListener('change', function() {
+            // チェックボックスの状態が変更されたときの処理
+            // ここでは何もしない（必要に応じてカスタマイズ）
+        });
     });
 });
 </script>
+
 - [ ] 論文の体裁：次の順序になっている． 
     扉，論文要旨，目次，本文（序論，本論，結論），［謝辞］，参考文献，［付録］ 
 - [ ] 文体：“である．”調に統一している．“･･･です．”，“･･･だ．”調は用いていない． 
