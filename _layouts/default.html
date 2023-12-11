@@ -1,0 +1,16 @@
+<input type="checkbox" id="myCheckbox" />
+<label for="myCheckbox">チェックボックスのラベル</label>
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+    const checkbox = document.getElementById('myCheckbox');
+
+    // ローカルストレージからチェックボックスの状態を読み込み
+    const isChecked = localStorage.getItem('myCheckbox') === 'true';
+    checkbox.checked = isChecked;
+
+    // チェックボックスの変更を監視し、ローカルストレージに保存
+    checkbox.addEventListener('change', (event) => {
+        localStorage.setItem('myCheckbox', checkbox.checked);
+    });
+});
+</script>
