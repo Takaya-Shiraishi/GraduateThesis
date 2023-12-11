@@ -5,4 +5,6 @@
 
 [添削後アップロード](https://github.com/Takaya-Shiraishi/GraduateThesis/issues)
 
-[執筆要領とか](https://github.com/Takaya-Shiraishi/GraduateThesis/wiki)
+[執筆要領](https://github.com/Takaya-Shiraishi/GraduateThesis/wiki)
+
+[各種チェックリスト](https://hackmd.io/@taka8it/SJRa1-4Lp)
