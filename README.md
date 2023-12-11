@@ -8,3 +8,5 @@
 [執筆要領](https://github.com/Takaya-Shiraishi/GraduateThesis/wiki)
 
 [論文チェックリスト](https://takaya-shiraishi.github.io/GraduateThesis/GraduateThesisChecklist.html)
+    
+[発表チェックリスト](https://takaya-shiraishi.github.io/GraduateThesis/PresentationChecklist.html)  
