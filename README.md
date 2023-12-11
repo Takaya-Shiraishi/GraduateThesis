@@ -7,4 +7,4 @@
 
 [執筆要領](https://github.com/Takaya-Shiraishi/GraduateThesis/wiki)
 
-[各種チェックリスト](https://hackmd.io/@taka8it/SJRa1-4Lp)
+[論文チェックリスト](https://takaya-shiraishi.github.io/GraduateThesis/GraduateThesisChecklist.html)
