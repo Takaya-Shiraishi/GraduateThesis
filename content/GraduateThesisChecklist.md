@@ -1,14 +1,14 @@
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
-    const checkbox = document.getElementById('myCheckbox');
+    const checkbox = document.getElementById('task-list-item-checkbox');
 
     // ローカルストレージからチェックボックスの状態を読み込み
-    const isChecked = localStorage.getItem('myCheckbox') === 'true';
+    const isChecked = localStorage.getItem('task-list-item-checkbox') === 'true';
     checkbox.checked = isChecked;
 
     // チェックボックスの変更を監視し、ローカルストレージに保存
     checkbox.addEventListener('change', (event) => {
-        localStorage.setItem('myCheckbox', checkbox.checked);
+        localStorage.setItem('task-list-item-checkbox', checkbox.checked);
     });
 });
 </script>
