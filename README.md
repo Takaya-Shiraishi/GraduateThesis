@@ -1,6 +1,6 @@
 # 卒業論文バージョン管理リポジトリ
 卒業論文のバージョンを管理します。
-
+卒論一式：![ダウンロード](https://github.com/Takaya-Shiraishi/GraduateThesis/archive/refs/tags/downloadable.zip)
 ## ステータス
 |ファイル名|内容|
 |:-:|:-:|
